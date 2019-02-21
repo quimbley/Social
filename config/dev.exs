@@ -68,8 +68,8 @@ config :phoenix, :plug_init_mode, :runtime
 
 # Configure your database
 config :quimbley, Quimbley.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "quimbley_dev",
+  username: "acosta",
+  password: "",
+  database: "quimbley_social",
   hostname: "localhost",
   pool_size: 10
