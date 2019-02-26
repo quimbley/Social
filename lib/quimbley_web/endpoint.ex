@@ -1,5 +1,6 @@
 defmodule QuimbleyWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :quimbley
+  use NewRelic.Phoenix.Transaction
 
   socket "/socket", QuimbleyWeb.UserSocket,
     websocket: true,
