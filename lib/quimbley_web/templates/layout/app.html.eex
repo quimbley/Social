@@ -13,7 +13,8 @@
       <section class="container">
         <nav role="navigation">
           <ul>
-            <li><a href="https://hexdocs.pm/phoenix/overview.html" style="font-family: 'Cormorant Garamond ', serif; font-size: 18px; color: #555">Get Started</a></li>
+            <li><a class="nav-link text-nowrap" href="/login" style="font-family: 'Cormorant Garamond ', serif; font-size: 15px; color: #555">Login</a></li>
+            <li><a class="nav-link text-nowrap" href="/signup" style="font-family: 'Cormorant Garamond ', serif; font-size: 15px; color: #555">Sign Up</a></li>
           </ul>
         </nav>
         <a href="/" class="navbar-brand logo" style="font-family: 'Cormorant Garamond ', serif; font-size: 31px; color: #555">Quimbley</a>

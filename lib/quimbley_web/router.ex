@@ -18,6 +18,7 @@ defmodule QuimbleyWeb.Router do
 
     get "/", PageController, :index
     get "/signup", SignUpController, :index
+    get "/login", LoginController, :index
   end
 
   # Other scopes may use custom stacks.
